@@ -5,7 +5,7 @@ TARGET = 127.0.0.1
 SSHPORT = 22
 BUILDPATH = .
 
-build:
+sync:
 	docker build -t howto-bugreport $(BUILDPATH)
 	docker save howto-bugreport > $(BUILDPATH)/howto-bugreport.tar
 	docker rmi howto-bugreport
