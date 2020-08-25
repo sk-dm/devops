@@ -1,6 +1,6 @@
 install.sh - установка на управляющий сервер
 
-#### make <command> [<variable=value>]  
+#### make \<command\> [<variable=value>]  
 ##### command:  
  sync - создание контейнера с обновленным зеркалом  
  deploy - обновить контейнер на ведомом сервере  
