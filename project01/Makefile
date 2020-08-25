@@ -6,7 +6,7 @@ SSHPORT ?= 22
 BUILDPATH ?= .
 GIT ?= https://github.com/sk-dm/devops/
 
-build:
+sync:
 	docker build -t howto-bugreport $(BUILDPATH)
 	docker save howto-bugreport > $(BUILDPATH)/howto-bugreport.tar
 	docker rmi howto-bugreport
